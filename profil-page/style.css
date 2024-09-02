@@ -1,0 +1,228 @@
+body {
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+/* Navbar */
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 40px 0 40px;
+    background-color: white;
+    left: 0;
+    right: 0;
+    height: 100px;
+    position: fixed;
+    border-bottom: 1px solid #9F9F9F;
+    z-index: 9999;
+    
+}
+.navbar .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: #0B132A;
+}
+.navbar .logo span {
+    font-weight: 700;
+}
+.navbar .navbar-nav a {
+    color: black;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 16px;
+    text-decoration: none;
+}
+.navbar .navbar-nav a:hover {
+    color: rgba(106, 64, 41, 1);
+    font-weight: 700;
+}
+
+.nav-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+button:hover {
+    background: #FFBA33;
+    color: #6A4029;
+    font-weight: 700;
+}
+
+.container-box {
+    display: flex;
+    margin-top: 100px;
+    position: absolute;
+    background-color: #FFBA33;
+    width: 100%;
+    height: 1000px;
+}
+.box {
+    margin-top: 200px;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.box-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 310px;
+    height: 358px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.foto-profil {
+    display: flex;
+    flex-direction: column;
+    width: 112px;
+    justify-content: center;
+    position: relative;
+    margin-top: 50px;
+}
+
+.icon-pensil {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: -30px;
+    position: relative;
+    margin-left: 100px;
+}
+
+.elips {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.elips .pensil {
+    display: flex;
+    width: 15px;
+    position: absolute;
+}
+
+.elips .bulat {
+    display: flex;
+    width: 18x;
+    position: relative;
+}
+
+.nama {
+    text-align: center;
+    line-height: 10px;
+    margin-top: 12px;
+}
+
+.bio {
+    /* margin-bottom: 50px; */
+}
+
+.list-box {
+    background-color: #6A4029;
+    width: 310px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    height: 12px;
+    border-radius: 0 0 10px 10px;
+}
+
+.box-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ffffff;
+    width: 800px;
+    height: 358px;
+    border-radius: 10px;
+}
+
+.conten-box-2 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: flex-start;
+}
+
+.list-box-2 {
+    background-color: #6A4029;
+    width: 800px;
+    display: flex;
+    position: relative;
+    height: 12px;
+    border-radius: 0 0 10px 10px;
+}
+
+.judul-contacts {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px 0 50px;
+}
+
+.lingkaran {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 20px;
+}
+
+.lingkaran .pensil1 {
+    display: flex;
+    width: 15px;
+    position: absolute;
+}
+
+.lingkaran .bulat1 {
+    display: flex;
+    width: 18x;
+    position: relative;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 0 50px 0 50px;
+    gap: 40px;
+    color: #9F9F9F;
+    margin-top: -40px;
+}
+
+.input-top {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.input-top .b input {
+    width: 300px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #000000;
+    height: 40px;
+}
+
+.input-bawah input {
+    width: 300px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #000000;
+    height: 40px;
+}
